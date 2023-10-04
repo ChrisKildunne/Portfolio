@@ -3,7 +3,7 @@ import './Projects.css';
 export default function Projects() {
     return (
         <div className="projects-wrapper">
-            {/* Board-Shop Card */}
+         
             <div className="card board-container shadow-lg board-shop-card">
                 <div className="card-body">
                     <div className="card-text">

@@ -7,9 +7,7 @@ import Projects from "../Projects/Projects"
 export default function DashBoard(){
     return (
     <div>
-        <Header />
-        <AboutMe />
-        <Projects />
+      
     </div>      
     )
 }
