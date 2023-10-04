@@ -1,11 +1,13 @@
 .board-container {
-    width: 450px;
-    height: 400px;
+    width: 650px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    border: 2px solid #333;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.13);
+    overflow: hidden;
 }
 
 .board-shop-card {
@@ -28,6 +30,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    z-index: 1; 
 }
 
 .github-project:hover {
@@ -39,4 +42,33 @@
     gap: 20px;  
     justify-content: center;  
     flex-wrap: wrap; 
+}
+
+.project-details {
+    position: absolute;
+    bottom: 10%;  
+    left: 5%;    
+    color: white;  
+    background-color: rgba(0, 0, 0, 0.6);  
+    padding: 15px;
+    border-radius: 8px;
+    list-style-type: square;
+    max-width: 80%;  
+    z-index: 1;  
+}
+
+li {
+    margin: 5px 0;
+}
+
+.card-links {
+    color: white;
+    z-index: 1;
+}
+
+
+.github-project:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(98, 98, 215, 0.7);
 }
