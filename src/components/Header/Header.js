@@ -5,7 +5,7 @@ export default function Header() {
                 className="github-link"
                 href="https://github.com/ChrisKildunne"
                 target="_blank"
-                rel="noopener noreferrer" // Important for security
+                rel="noopener noreferrer" 
             >
                 My GitHub
             </a>
@@ -14,7 +14,7 @@ export default function Header() {
                 className="linkedin-link"
                 href="https://www.linkedin.com/in/christopher-kildunne/"
                 target="_blank"
-                rel="noopener noreferrer" // Important for security
+                rel="noopener noreferrer" 
             >
                 My LinkedIn
             </a>

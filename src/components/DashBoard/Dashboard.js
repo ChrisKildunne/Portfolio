@@ -1,7 +1,7 @@
 import React from "react"
-import AboutMe from "./aboutMe"
-import Header from "./header"
-import Projects from "./projects"
+import AboutMe from "../AboutMe/AboutMe"
+import Header from "../Header/Header"
+import Projects from "../Projects/Projects"
 
 
 export default function DashBoard(){
