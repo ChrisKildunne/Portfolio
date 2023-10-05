@@ -37,29 +37,32 @@ export default function Home() {
                 <h3 style={{ fontStyle: 'italic', color: '#555' }}>
                     Software Engineer
                 </h3>
-                <button onClick={scrollToContact} className="btn btn-primary mt-3">Contact Me</button>
+                <button onClick={scrollToContact} className="btn btn-custom mt-3">Contact Me</button>
             </div>
             
             <div id="contact-section">
-                <h2>Contact</h2>
-                <p>Email: chriskildunne@gmail.com</p>
-                <p>Phone: 516-404-9876</p>
-                <a className="nav-link"
-                            href="https://github.com/ChrisKildunne"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faGithub} size="2x" />
-                        </a>
+              <h2>Contact</h2>
+              <p>
+                  <strong>Email:</strong> <a href="mailto:chriskildunne@gmail.com" className="contact-link">chriskildunne@gmail.com</a>
+              </p>
+              <p><strong>Phone:</strong> 516-404-9876</p>
+              <a className="nav-link"
+                  href="https://github.com/ChrisKildunne"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
 
-                        <span className="navbar-text mx-3"></span>
+              <span className="navbar-text mx-3"></span>
 
-                        <a className="nav-link"
-                            href="https://www.linkedin.com/in/christopher-kildunne/"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                        </a>
-            </div>
+              <a className="nav-link"
+                  href="https://www.linkedin.com/in/christopher-kildunne/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              </a>
+          </div>
+
         </div>
     );
 }
