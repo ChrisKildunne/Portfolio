@@ -22,30 +22,41 @@ export default function Home() {
             </div>
             
             <div id="contact-section">
-                <h2>Contact</h2>
-                <p>
-                   <a href="mailto:chriskildunne@gmail.com" className="contact-link">chriskildunne@gmail.com</a>
-                </p>
-                <p>516-404-9876</p>
-                <p>
-            <a href="https://drive.google.com/file/d/1SjGm5fYhNrG9KhG_8LblAq5S5gEPP2K9/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-link">View my Resume</a>
-             </p>
-                <a className="nav-link"
-                   href="https://github.com/ChrisKildunne"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                   <FontAwesomeIcon icon={faGithub} size="2x" />
-                </a>
+    <h2>Contact</h2>
 
-                <span className="navbar-text mx-3"></span>
+    <div className="contact-group">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+        <a className="nav-link contact-link"
+           href="https://github.com/ChrisKildunne"
+           target="_blank"
+           rel="noopener noreferrer">
+           GitHub
+        </a>
+    </div>
 
-                <a className="nav-link"
-                   href="https://www.linkedin.com/in/christopher-kildunne/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                </a>
-            </div>
+    <div className="contact-group">
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        <a className="nav-link contact-link"
+           href="https://www.linkedin.com/in/christopher-kildunne/"
+           target="_blank"
+           rel="noopener noreferrer">
+           LinkedIn
+        </a>
+    </div>
+
+    <div className="contact-group">
+        <p>Email: <a href="mailto:chriskildunne@gmail.com" className="contact-link">chriskildunne@gmail.com</a></p>
+    </div>
+
+    <div className="contact-group">
+        <p>Phone: 516-404-9876</p>
+    </div>
+
+    <div className="contact-group">
+        <p><a href="https://drive.google.com/file/d/1SjGm5fYhNrG9KhG_8LblAq5S5gEPP2K9/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-link">View my Resume</a></p>
+    </div>
+</div>
+
         </div>
     );
 }

@@ -3,10 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* make it occupy the whole viewport height */
+    height: 100vh;
     font-size: 1.5em;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
+
+.contact-group {
+    display: flex;
+    align-items: center; 
+    gap: 1rem; /* Add spacing between flex items */
+    margin-bottom: 1rem; /* Add margin to the bottom to separate groups */
+}
+
 
 #contact-section h2 {
     font-size: 2em;
