@@ -24,9 +24,12 @@ export default function Home() {
             <div id="contact-section">
                 <h2>Contact</h2>
                 <p>
-                    <strong>Email:</strong> <a href="mailto:chriskildunne@gmail.com" className="contact-link">chriskildunne@gmail.com</a>
+                   <a href="mailto:chriskildunne@gmail.com" className="contact-link">chriskildunne@gmail.com</a>
                 </p>
-                <p><strong>Phone:</strong> 516-404-9876</p>
+                <p>516-404-9876</p>
+                <p>
+            <a href="https://drive.google.com/file/d/1SjGm5fYhNrG9KhG_8LblAq5S5gEPP2K9/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-link">View my Resume</a>
+             </p>
                 <a className="nav-link"
                    href="https://github.com/ChrisKildunne"
                    target="_blank"
