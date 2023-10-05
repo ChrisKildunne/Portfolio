@@ -21,7 +21,7 @@ export default function Header() {
                             <Link className="nav-link" to="/projects">Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">About Me</Link>
+                            <Link className="nav-link" to="/about">About</Link>
                         </li>
                     </ul>
                     <div className="navbar-nav header-links">

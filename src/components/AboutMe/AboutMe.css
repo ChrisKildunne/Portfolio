@@ -23,6 +23,7 @@ p {
     margin-bottom: 15px;
     color: #555;
     line-height: 1.6;
+    padding-left: 60px;
 }
 
 .about-content {
@@ -38,6 +39,7 @@ p {
 
 .skills-section {
     flex: 1;
+    padding-left: 100px;
 }
 
 .skills-list {
@@ -47,20 +49,8 @@ p {
 
 li {
     margin-bottom: 10px;
-    padding-left: 10px;
+    padding-top: 5px;
     position: relative;
     font-weight: 600;
    
-}
-
-
-
-@media (max-width: 600px) {
-    .about-content {
-        flex-direction: column;
-    }
-
-    .intro {
-        padding-right: 0;
-    }
 }

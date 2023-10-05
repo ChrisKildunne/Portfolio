@@ -13,7 +13,6 @@ export default function AboutMe(){
                     <p>Outside of coding, I'm an avid outdoor enthusiast. Snowboarding, mountain biking, climbing, or fishing - I relish every opportunity to embrace the outdoors.</p>
                     </div>
          <div className="skills-section">
-            <h2>Skills</h2>
             <ul className="skills-list">
             <li>JavaScript</li>
             <li>Python</li>
