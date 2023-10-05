@@ -1,3 +1,5 @@
+import './AboutMe.css';
+
 export default function AboutMe(){
     return (
         <div>
@@ -7,6 +9,7 @@ export default function AboutMe(){
             <p>I have a Bachelors Degree in Economics from the University of Colorado, Boulder, 4+ years of hospitality experience and a Certificate of Completion from General Assembly's Software Engineering Immersive course</p>
             <p>I am an outdoor enthusiast with an insatiable appetite for adventure. Whether it be snowboarding, mountain biking, climbing or fishing I cant get enough of the outdoors!</p>
             <h2>Skills:</h2>
+            <ul>
             <li>JavaScript</li>
             <li>Python</li>
             <li>React</li>
@@ -17,6 +20,7 @@ export default function AboutMe(){
             <li>JSON</li>
             <li>HTML</li>
             <li>CSS</li>
+            </ul>
         </div>
             
     )

@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
-
 export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -12,8 +11,7 @@ export default function Header() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNav">
-
+                <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
 
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">

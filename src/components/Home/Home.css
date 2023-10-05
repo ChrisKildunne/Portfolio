@@ -1,0 +1,15 @@
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* make it occupy the whole viewport height */
+    font-size: 1.5em; /* make the font larger */
+    line-height: 1.5; /* more spacing between lines */
+}
+
+/* if you want even more emphasis, add additional styles for headings in the contact section */
+#contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,30 @@
+
+
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    color: #666;
+}
+
+
+
+li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+@media (max-width: 600px) {
+    div {
+        padding: 15px;
+    }
+}
