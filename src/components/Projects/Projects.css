@@ -1,79 +1,36 @@
-.board-container {
-    width: 650px;
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    border: 3px solid white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.13);
-    overflow: hidden;
-}
-
-.board-shop-card {
-    background-image: url('https://i.imgur.com/408ClnQ.jpg');
-}
-
-.outings-card {
-    background-image: url('https://i.imgur.com/QdNzSgo.png');
-}
-
-.github-project {
-    margin: 10px 0;
-    text-shadow: 1px 1px 2px rgba(98, 63, 63, 0.7);
-    color: rgb(98, 98, 215);
+:root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+  }
+  
+  body {
+    background: #111 !important;
+  }
+  
+  .card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important; 
     text-decoration: none;
-
-    font-weight: bold; /* Make text bolder */
-    font-size: 1.2em; /* Increase font size */
-}
-
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    z-index: 1; 
-}
-
-.github-project:hover {
+    transition: all .4s ease;
+    padding: 10px;
+  }
+  
+  .btn:hover, .btn:focus {
+        background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
     text-decoration: underline;
-}
-
-.projects-wrapper {
-    display: flex;
-    gap: 20px;  
-    justify-content: center;  
-    flex-wrap: wrap; 
-}
-
-.project-details {
-    position: absolute;
-    bottom: 10%;  
-    left: 5%;    
-    color: white;  
-    background-color: rgba(0, 0, 0, 0.6);  
-    padding: 15px;
-    border-radius: 8px;
-    list-style-type: square;
-    max-width: 80%;  
-    z-index: 1;  
-}
-
-li {
-    margin: 5px 0;
-}
-
-.card-links {
-    color: white;
-    z-index: 1;
-}
-
-
-.github-project:hover {
-    text-decoration: none;
-    transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(98, 98, 215, 0.7);
-}
+  }
 
