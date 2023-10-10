@@ -7,7 +7,7 @@ export default function Projects() {
             <div className="row">
 
                 {/* Board-Shop Project */}
-                <div className="col-md-4">
+                <div className="col-md-6 mb-4">
                     <div className="card" style={{ width: "18rem" }}>
                         <img src="https://i.imgur.com/408ClnQ.jpg" className="card-img-top" alt="Board-Shop Project" />
                         <div className="card-body">
@@ -37,8 +37,9 @@ export default function Projects() {
                     </div>
                 </div>
 
+
                 {/* Outings Project */}
-                <div className="col-md-4">
+                <div className="col-md-6 mb-4">
                     <div className="card" style={{ width: "18rem" }}>
                         <img src="https://i.imgur.com/QdNzSgo.png" className="card-img-top" alt="Outings Project" />
                         <div className="card-body">
@@ -69,6 +70,36 @@ export default function Projects() {
                     </div>
                 </div>
 
+                {/* Vinny-Hair Project */}
+                <div className="col-md-6 mb-4">
+                    <div className="card" style={{ width: "18rem" }}>
+                        <img src="https://i.imgur.com/L4QWum4.png" className="card-img-top" alt="Board-Shop Project" />
+                        <div className="card-body">
+                            <h5 className="card-title">Vinny's Hair</h5>
+                            <ul>
+                            <li>Designed and developed a dynamic full-stack platform tailored for Vinny, a professional hairstylist, harnessing the power of React and Express.</li>
+                                <li>Seamlessly integrated the Twilio API to offer real-time text confirmations to clients. Employed the Nodemailer API, enabling instant booking notifications directly to the inbox.</li>
+                                <li>Currently in the process of integrating Stripe to facilitate secure merchandise purchases.</li>
+                            </ul>
+                            <a
+                                className="btn mr-2"
+                                href="https://github.com/ChrisKildunne/Vinnys-Hair"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-github"></i> Code
+                            </a>
+                            <a
+                                className="btn"
+                                href="https://your-hair-suks-50fdd50ef999.herokuapp.com/mywork"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fas fa-link"></i> Deployed App 
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
