@@ -110,3 +110,90 @@ div {
   display: flex;
   justify-content: flex-start;
 }
+:root {
+  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
+.card {
+  border: 1px solid #dd2476;
+  color: rgba(8, 6, 6, 0.8);
+  margin: 2rem 0; /* Spacing on top and bottom */
+  padding: 1rem; /* Inner spacing */
+}
+
+.btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source:  var(--gradient) !important; 
+  text-decoration: none;
+  transition: all .4s ease;
+  padding: 10px;
+}
+
+.btn:hover, .btn:focus {
+  background: var(--gradient) !important;
+  -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 5px solid #fff !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.about-header {
+ 
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #555;
+  line-height: 1.6;
+  padding-left: 60px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.intro {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.skills-section {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  position: relative;
+  font-weight: 600;
+ 
+}
