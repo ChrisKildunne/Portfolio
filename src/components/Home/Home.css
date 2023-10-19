@@ -11,8 +11,10 @@
 .contact-group {
     display: flex;
     align-items: center; 
-    gap: 1rem; /* Add spacing between flex items */
-    margin-bottom: 1rem; /* Add margin to the bottom to separate groups */
+    gap: 1rem; 
+    margin-bottom: 1rem; 
+    font-family: 'Lucida Console', Monaco, monospace; 
+
 }
 
 
@@ -67,4 +69,36 @@
     from, to { border-color: transparent }
     50% { border-color: rgb(7, 7, 6) }
   }
-  
+ .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Lucida Console', Monaco, monospace; 
+
+ }
+ .about-container h1{
+    font-family: 'Lucida Console', Monaco, monospace; 
+    font-size: 2em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.card-title{
+    font-family: 'Lucida Console', Monaco, monospace; 
+
+}
+.card-body{
+    font-family: 'Lucida Console', Monaco, monospace; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.custom-card {
+    margin: 10px; 
+    padding: 10px; 
+}
+.custom-margin {
+    margin-bottom: 70px; 
+}

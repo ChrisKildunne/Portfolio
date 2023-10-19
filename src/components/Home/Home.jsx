@@ -22,7 +22,7 @@ export default function Home() {
                     Software Engineer
                 </h3>
                 <button onClick={() => scrollTo("contact-section")} className="btn btn-custom mt-3">Contact Me</button>
-                <button onClick={() => scrollTo("about")} className="btn btn-custom mt-3">About Me</button>
+                <button onClick={() => scrollTo("about")} className="btn btn-custom mt-3">About Chris</button>
                 <button onClick={() => scrollTo("project")} className="btn btn-custom mt-3">Portfolio</button>
             </div>
             
@@ -58,19 +58,18 @@ export default function Home() {
     </div>
 
     <div className="contact-group">
-        <p><a href="https://drive.google.com/file/d/1SjGm5fYhNrG9KhG_8LblAq5S5gEPP2K9/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-link">View my Resume</a></p>
+        <p><a href="https://drive.google.com/file/d/1SjGm5fYhNrG9KhG_8LblAq5S5gEPP2K9/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-link">View Resume</a></p>
     </div>
     <div className='contact-group'>
-        <button onClick={() => scrollTo("about")} className="btn btn-custom mt-3">About Me</button>
+        <button onClick={() => scrollTo("about")} className="btn btn-custom mt-3">About Chris</button>
         <button onClick={() => scrollTo("project")} className="btn btn-custom mt-3">Portfolio</button>
         <button onClick={() => scrollTo("top")} className="btn btn-custom mt-3">Back To Top</button>
     </div>
     
 </div>
 <div className="about-container" id= "about">
-                <header className="about-header">
-                    <h1>About</h1>
-                </header>
+                    <h1>About </h1>
+             
             <section className="about-content">
                 <div className="intro">
                     <p>I'm a software engineer based in the vibrant Salt Lake Metropolitan area. My journey into the tech world began with the Software Engineering Bootcamp at General Assembly. It was in this immersive environment that I discovered my passion for the intricate puzzle that is coding. Drawing from my background in hospitality, I've honed a unique perspective that complements my technical skills, positioning me as a valuable addition to any development team.</p>
@@ -97,12 +96,12 @@ export default function Home() {
                             <button onClick={() => scrollTo("project")} className="btn btn-custom mt-3">Portfolio</button>
                             <button onClick={() => scrollTo("top")} className="btn btn-custom mt-3">Back To Top</button>
         </div>
-        <div className="container mx-auto mt-4" id='project'>
+        <div className="container mx-auto mt-4 custom-margin" id='project'>
             <div className="row">
 
                 {/* Board-Shop Project */}
-                <div className="col-md-6 mb-4">
-                    <div className="card" style={{ width: "18rem" }}>
+                <div className="col-12 col-md-6 col-lg-4">
+                    <div className="card custom-card" style={{ width: "18rem" }}>
                         <img src="https://i.imgur.com/408ClnQ.jpg" className="card-img-top" alt="Board-Shop Project" />
                         <div className="card-body">
                             <h5 className="card-title">Board-Shop</h5>
@@ -133,8 +132,8 @@ export default function Home() {
 
 
                 {/* Outings Project */}
-                <div className="col-md-6 mb-4">
-                    <div className="card" style={{ width: "18rem" }}>
+                <div className="col-12 col-md-6 col-lg-4">
+                    <div className="card custom-card" style={{ width: "18rem" }}>
                         <img src="https://i.imgur.com/QdNzSgo.png" className="card-img-top" alt="Outings Project" />
                         <div className="card-body">
                             <h5 className="card-title">Outings</h5>
@@ -166,9 +165,9 @@ export default function Home() {
                 </div>
 
                 {/* Vinny-Hair Project */}
-                <div className="col-md-6 mb-4">
-                    <div className="card" style={{ width: "18rem" }}>
-                        <img src="https://i.imgur.com/L4QWum4.png" className="card-img-top" alt="Board-Shop Project" />
+                <div className="col-12 col-md-6 col-lg-4">
+                    <div className="card custom-card" style={{ width: "18rem" }}>
+                        <img src="https://i.imgur.com/KH4CaDX.png" className="card-img-top" alt="Board-Shop Project" />
                         <div className="card-body">
                             <h5 className="card-title">Vinny's Hair</h5>
                             <ul>
