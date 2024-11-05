@@ -19,7 +19,7 @@ export default function Home() {
                   <h1>Chris Kildunne</h1>
                 </div>
                 <h3 style={{ fontStyle: 'italic', color: '#555' }}>
-                    Software Engineer
+                    Technical Support Engineer
                 </h3>
                 <button onClick={() => scrollTo("contact-section")} className="btn btn-custom mt-3">Contact Me</button>
                 <button onClick={() => scrollTo("about")} className="btn btn-custom mt-3">About Chris</button>
@@ -72,22 +72,22 @@ export default function Home() {
              
             <section className="about-content">
                 <div className="intro">
-                    <p>I'm a software engineer based in the vibrant Salt Lake Metropolitan area. My journey into the tech world began with the Software Engineering Bootcamp at General Assembly. It was in this immersive environment that I discovered my passion for the intricate puzzle that is coding. Drawing from my background in hospitality, I've honed a unique perspective that complements my technical skills, positioning me as a valuable addition to any development team.</p>
-                    <p>I hold a Bachelor's Degree in Economics from the University of Colorado, Boulder, and boast over four years of experience in the hospitality sector. On top of this, I proudly possess a Certificate of Completion from General Assembly's rigorous Software Engineering Immersive course.</p>
-                    <p>Outside of coding, I'm an avid outdoor enthusiast. Snowboarding, mountain biking, climbing, or fishing - I relish every opportunity to embrace the outdoors.</p>
+                <p>I'm a technical support engineer based in the vibrant Salt Lake Metropolitan area. My journey in tech started with a Software Engineering Bootcamp at General Assembly, where I discovered a passion for the intricate puzzles coding presents. This foundation in software engineering has significantly enhanced my approach to troubleshooting, allowing me to identify and resolve complex issues efficiently and effectively.</p> 
+                <p>I hold a Bachelor's Degree in Economics from the University of Colorado, Boulder, with over four years of experience in the hospitality industry. Additionally, I am a proud graduate of General Assembly's intensive Software Engineering Immersive course, which equipped me with a versatile skill set I now bring to technical support.</p> 
+                <p>Outside of work, I’m an outdoor enthusiast. Whether snowboarding, mountain biking, climbing, or fishing, I seize every chance to enjoy the beauty of the outdoors.</p>
                     </div>
          <div className="skills-section" >
-            <ul className="skills-list">
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Django</li>
-            <li>MongoDB/Mongoose</li>
-            <li>Express</li>
-            <li>JSON</li>
-            <li>HTML</li>
-            <li>CSS</li>
+         <ul className="skills-list">
+                    <li>Troubleshooting & Triage</li>
+                    <li>Console/Network Logs Analysis</li>
+                    <li>SaaS Platforms</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Node.js</li>
+                    <li>JSON</li>
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
             </ul>
              </div>
          </section>
