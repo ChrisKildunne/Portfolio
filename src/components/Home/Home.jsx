@@ -58,7 +58,7 @@ export default function Home() {
     </div>
 
     <div className="contact-group">
-        <p><a href="https://drive.google.com/file/d/1SjGm5fYhNrG9KhG_8LblAq5S5gEPP2K9/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-link">View Resume</a></p>
+        <p><a href="https://docs.google.com/document/d/1t4RorN28yMVxfV2NT6FIUfeLexoWh6CAz8Nh5X1ud_o/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-link">View git ou</a></p>
     </div>
     <div className='contact-group'>
         <button onClick={() => scrollTo("about")} className="btn btn-custom mt-3">About Chris</button>
